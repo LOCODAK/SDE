@@ -1,0 +1,88 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1260px;
+  height: 84px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: "Kiwi Maru";
+}
+
+.navbar-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+  width: 1260px;
+  height: 84px;
+}
+
+.nav-item {
+  position: absolute;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 61px;
+  webkittextstroke: 1px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item-services {
+  left: 362px;
+  width: 112px;
+}
+
+.nav-item-products {
+  left: 479px;
+}
+
+.nav-item-pet-care {
+  left: 574px;
+}
+
+.nav-item-contact {
+  left: 661px;
+}
+
+.nav-item-login {
+  left: 899px;
+}
+
+.nav-item-book-now {
+  left: 1051px;
+}
+
+.button-login {
+  position: absolute;
+  top: 22px;
+  left: 885px;
+  border-radius: 50px;
+  background-color: #ffbd89;
+  width: 132px;
+  height: 47px;
+}
+
+.button-book-now {
+  position: absolute;
+  top: 22px;
+  right: 94px;
+  border-radius: 50px;
+  background-color: #f19a56;
+  width: 132px;
+  height: 47px;
+}
+
+.logo {
+  position: absolute;
+  top: 16px;
+  left: 63px;
+  width: 117px;
+  height: 52px;
+  object-fit: cover;
+}
