@@ -1,0 +1,138 @@
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #6A7AFF;
+    height: 135vh;
+    width: 80%;
+    border-radius: 4em;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    padding-left: 1.5em;
+}
+
+.headingAndPaws {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+}
+
+.heading {
+    font-family: 'Kiwi Maru', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    color: white;
+}
+
+.leftPaw {
+    font-size: 2.5em;
+    color: #303879;
+    rotate: 60deg;
+    margin-right: 2em;
+}
+
+.rightPaw {
+    font-size: 2.5em;
+    color: #303879;
+    rotate: 60deg;
+    margin-bottom: 0.3em;
+}
+
+
+.subheadingAndPaw {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    margin-top: 1.2em;
+    margin-left: 6em;
+    margin-bottom: 0.3em;
+}
+
+.subText {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Kiwi Maru', 'Arial', sans-serif;
+}
+
+.subList {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Kiwi Maru', 'Arial', sans-serif;
+    margin-top: 0.2em;
+}
+
+.paw {
+    font-size: 2.5em;
+    color: #303879;
+    rotate: 60deg;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+
+.bodytextAndArrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkArrowContainer {
+    align-self: center;
+}
+
+.arrowContainer {
+    background-color: #CBC5C5;
+    align-self: center;
+    padding: 0.5em;
+    border-radius: 5em;
+    margin-left: 0;
+}
+
+.arrowContainer:hover {
+    background-color: #A56107;
+}
+
+.arrow {
+    font-size: 1.7em;
+    fill: white;
+}
+
+.bodyText {
+    margin-left: 2.5em;
+}
+
+.questionText {
+    font-size: 1em;
+    color: black;
+    font-family: 'Kiwi Maru', 'Arial', sans-serif;
+}
+
+.answerText {
+    font-size: 1em;
+    color: white;
+    font-family: 'Kiwi Maru', 'Arial', sans-serif;
+    margin-bottom: 1.3em;
+}
+
+.bookButtonContainer {
+    display: flex;
+}
+
+.bookButton {
+    background-color: black;
+    color: white;
+    padding: 0.8em 1.5em;
+    border-radius: 3em;
+    font-family: 'Kiwi Maru', 'Arial', sans-serif;
+    font-weight: lighter;
+    margin-top: 1em;
+    margin-left: 5em;
+}
