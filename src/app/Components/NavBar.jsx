@@ -1,4 +1,4 @@
-const AboutUsCard = () => {
+const NavBar = () => {
   return (
     <div
       style={{
@@ -163,4 +163,4 @@ const AboutUsCard = () => {
   );
 };
 
-export default AboutUsCard;
+export default NavBar;
