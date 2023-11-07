@@ -12,6 +12,7 @@ const NavBar = () => {
         fontSize: "16px",
         color: "#000",
         fontFamily: "'Kiwi Maru'",
+        fontWeight: "600"
       }}
     >
       <div
@@ -52,7 +53,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="#">Our Services</a>
+        <a href="/services">Our Services</a>
       </div>
       <div
         style={{
@@ -80,7 +81,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="#">Pet Care</a>
+        <a href="/blog">Pet Blog</a>
       </div>
       <div
         style={{
@@ -95,6 +96,20 @@ const NavBar = () => {
         }}
       >
         <a href="#">Contact</a>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          top: "12px",
+          left: "751px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          width: "100px",
+          height: "61px",
+        }}
+      >
+        <a href="#">Pet Wiki</a>
       </div>
       <div
         style={{
@@ -146,18 +161,20 @@ const NavBar = () => {
       >
         <a href="#">Log In</a>
       </div>
-      {/* <img
-        style={{
-          position: "absolute",
-          top: "16px",
-          left: "63px",
-          width: "10px",
-          height: "52px",
-          objectFit: "cover",
-        }}
-        alt="Paws"
-        src='paws.svg'
-      /> */}
+      <a href='/'>
+        <img
+          style={{
+            position: "absolute",
+            top: "16px",
+            left: "63px",
+            width: "60px",
+            height: "52px",
+            objectFit: "cover",
+          }}
+          alt="Paws"
+          src='/paws-2@2x.png'
+        />
+      </a>
       <img src="logo.svg" alt="" class="logo" />
     </div>
   );
