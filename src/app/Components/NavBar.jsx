@@ -39,7 +39,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="http://localhost:3001/">About Us</a>
+        <a href="/About">About Us</a>
       </div>
       <div
         style={{
@@ -67,7 +67,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="#">Products</a>
+        <a href="http://localhost:3001/">Products</a>
       </div>
       <div
         style={{
@@ -109,7 +109,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="#">Pet Wiki</a>
+        <a href="http://127.0.0.1:5500/index.html">Pet Wiki</a>
       </div>
       <div
         style={{
@@ -145,7 +145,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="#">Book Now</a>
+        <a href="http://localhost:3001/">Book Now</a>
       </div>
       <div
         style={{
