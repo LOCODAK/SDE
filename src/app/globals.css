@@ -2,6 +2,13 @@
     --main-color-orange: rgba(241, 154, 86, 1);
     --middle-color-light-orange: rgba(255, 189, 137, 1);
   }
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'kiwi maru';
+    box-sizing: border-box;
+}
   
 /* hide the scroll bar css */
 body {
