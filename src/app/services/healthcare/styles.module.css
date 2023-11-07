@@ -5,12 +5,14 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
+    padding-top: 120px;
+    padding-bottom: 60px;
     box-sizing: border-box;
 }
 
 .main {
     background-color: #6A7AFF;
-    height: 60em;
+    height: 65em;
     width: 80%;
     border-radius: 4em;
     display: flex;
@@ -135,4 +137,8 @@
     font-weight: lighter;
     margin-top: 1em;
     margin-left: 5em;
+}
+
+.bookButton:hover {
+    background-color: #A56107;
 }

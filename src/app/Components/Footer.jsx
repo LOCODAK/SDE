@@ -1,4 +1,8 @@
 import React from 'react'
+import  Link from "next/link";
+import {BiLogoFacebookSquare, BiLogoPinterest} from 'react-icons/bi'
+import {BsInstagram} from 'react-icons/bs'
+import {RiTwitterXFill} from 'react-icons/ri'
 
 const Footer = () => {
   return (
@@ -37,10 +41,18 @@ const Footer = () => {
                 <div class="footer-col">
                  <h4>follow us</h4>
                   <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <Link className="social-link-elements" href="https://www.facebook.com/">
+                        <BiLogoFacebookSquare className="social-link-icon" />
+                      </Link>
+                      <Link className="social-link-elements" href="https://www.instagram.com/"> 
+                        <BsInstagram className="social-link-icon" />
+                      </Link>
+                      <Link className="social-link-elements" href="https://in.pinterest.com/">
+                        <BiLogoPinterest className="social-link-icon" />
+                      </Link>
+                      <Link className="social-link-elements" href="https://twitter.com/i/flow/login">
+                        <RiTwitterXFill className="social-link-icon" />
+                      </Link>
                   </div> 
                 </div>
               </div>
