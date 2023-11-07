@@ -1,0 +1,63 @@
+
+.container {
+    margin: 0;
+    padding-top: 7rem;
+    padding-left: 2rem;
+    font-family: 'Kiwi Maru';
+    box-sizing: border-box;
+
+}
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #F19A56;
+}
+.btn3{
+    background-color:black;
+    color: white;
+}
+.section-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 12px;
+    line-height: 1.5rem;
+   
+}
+.pet-bull{
+    width:550px;
+    border-radius: 12px;
+}
+.petwiki{
+    grid-column: span 2;
+}
+.sec-4-design{
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    background-color:#edaa78 ;
+    height: 12rem;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 70px;
+}
+  
+  ul li {
+    padding: 1rem;
+    text-align: center;
+  }
+  h2{
+    font-size:xx-large;
+  }
+  
