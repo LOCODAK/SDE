@@ -10,18 +10,13 @@
     align-items: center;
     font-family: "Lora", serif;
     color: black;
-  }
-  
-  .headerTitleSm {
-    position: absolute;
-    top: 13%;
-    font-size: 25px;
-    color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -200px;
+    margin-top: -70px;
   }
   
   .headerTitleLg {
-    position: absolute;
-    top: 15%;
     font-size: 100px;
     font-weight: 600;
   }

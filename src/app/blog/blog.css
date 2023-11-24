@@ -1,3 +1,10 @@
+.navbar-Wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+  margin-top: 100px;
+}
+
 .header {
   padding-bottom: 10px;
 }
@@ -10,16 +17,24 @@
   }
 
 .posts-container {
-    background-color: #FFBD89;
+    background-color: #FFD8B9;
     width: 75%;
     /* margin-left: 75px; */
     border-radius: 0px 32px 32px 0px;
     margin-bottom: 50px;
-    margin-top: 0;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .blogs-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 .posts {
-    padding-left: 80px;
+    padding-left: 120px;
   }
 
 .sidebar {
