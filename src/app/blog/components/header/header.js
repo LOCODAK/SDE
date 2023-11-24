@@ -6,7 +6,6 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">A community for pet lovers</span>
         <span className="headerTitleLg"> Pet Blog</span>
       </div>
       <Image

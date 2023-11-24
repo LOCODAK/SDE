@@ -1,0 +1,88 @@
+.container{
+    margin-top: 1rem;
+    height: calc(100vh - 60px);
+    width: 100%;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    margin-left: 20rem;
+}
+
+.wrapper > h2{
+    font-size: 40px;
+    color: #222;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    background-color: #FFB880;
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.wrapper > form{
+    margin-top: 2rem;
+    width: 20%;
+    padding: 1.5rem;
+    border: 1px solid #666;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+}
+
+.wrapper > form > input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 0.5rem;
+}
+
+.submitButton{
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #efefef;
+    color: #FE7D17;
+    cursor: pointer;
+    transition: 150ms;
+    letter-spacing: 0.5px;
+}
+
+.submitButton:hover{
+    border-color: #FFB880;
+    background-color: #FFB880;
+    color: #efefef;
+}
+
+.loginNow{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-top: 1.75rem;
+    cursor: pointer;
+    text-align: center;
+    transition: 150ms;
+}
+
+.loginNow:hover{
+    color: #555;
+}
