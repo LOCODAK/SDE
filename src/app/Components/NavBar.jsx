@@ -67,7 +67,7 @@ const NavBar = () => {
           height: "61px",
         }}
       >
-        <a href="http://localhost:3001/">Products</a>
+        <a href="http://localhost:3002/">Products</a>
       </div>
       <div
         style={{

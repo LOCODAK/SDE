@@ -20,8 +20,8 @@ function About() {
               <br /><br />
 
               <p>
-                Mauris commodo lacinia nisl, ut sodales ex vestibulum sed. Sed condimentum, nibh vitae dignissim laoreet, ex nisl imperdiet ex, at varius magna velit quis purus. Suspendisse at magna congue, rhoncus ligula tincidunt, efficitur purus. Vestibulum in vulputate odio. Curabitur gravida eleifend nulla, ut pulvinar velit ullamcorper et. Nullam venenatis egestas felis in imperdiet. Mauris suscipit magna massa, sit amet lobortis nunc consequat eget. Pellentesque vestibulum id purus et cursus. Donec id elementum lorem. Quisque ornare, tortor ut finibus porttitor, erat nibh mattis leo, faucibus rutrum ligula leo a nisl. Nam justo lorem, gravida nec
-                <br /><br /><br/>
+              Petopia is our labour of love, blending tech savvy with our passion for pets. Started of as a project idea for a course in our undergrad, our site is a tribute to the joy our furry friends bring into our lives. We aim to empower pet owners with top-notch care tips, services, and a supportive community. This is where tech-geekery meets whisker wisdom, all to keep your companions in tip-top spirits. So, pounce on over, dig into our treasure trove of tips, and join the pet party!
+ <br /><br /><br/>
               </p>
 
               <button className="btn btn3" style={{ width: '120px' }}>Read</button>

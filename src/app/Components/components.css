@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Poppins:ital,wght@1,100&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
     font-weight: 600;
+
 }
 
 .container{

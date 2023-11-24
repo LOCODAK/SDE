@@ -177,7 +177,7 @@ is not simply random text. It has roots in a piece of classical Latin liteyears 
               <div class="product1 pro">
                 <h4>Toys</h4>
                 <img src="shop1 1.svg" alt="" />
-                <button class="btn btn2 pro-btn">Try it !!</button>
+                <button class="btn btn2 pro-btn"><a href="http://localhost:3002/">Try it !!</a></button>
               </div>
 
               <div class="product2 pro">
